@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <script src="https://kit.fontawesome.com/8d855a32b7.js" crossorigin="anonymous"></script>
+    
+    <title>Conductores</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
+  <body id="fondo">
+    <div id="nav"></div>
+    <h1 id="delivery">Delivery Quick</h1>
+    <h6 id="admin">admin.</h6>
+    <img src="img/Group 1.png" alt="img" id="logo">
+
+    <img src="img/Vector.png" alt="" id="side">
+  
+
+    <div id="crud">
+      <div id="contenedor">
+    </div>
+  </div>
+    <div id="registrados">
+        <h6 id="motoristas">Motoristas Registrados</h6>
+    </div>
+    <img src="img/Taxi Driver_Outline 1.png" alt="img" id="driver">
+    <button class="form-control" id="agregar" data-bs-toggle="modal" data-bs-target="#exampleModal">Agregar</button><br>
+    
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       Id: <input type="text" name="" id="id-driver" class= "form-control"><br>
+       Nombre: <input type="text" name="" id="nombre" class= "form-control"><br>
+       Número de Conductor: <input type="text" name="" id="numDriver" class= "form-control"><br>
+       Rating: <input type="number" class="form-control"min="1" max="5" id="rating">
+       <select name="" id="img-selector">
+        <option value="img/kavinsky1.jpg">1</option>
+        <option value="img/21.jpg">2</option>
+       </select>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="crearMotorista();" data-bs-dismiss="modal">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <button class="form-control" id="editar">Editar</button><br>
+    <button class="form-control" id="eliminar">Eliminar</button>
+    
+
+    <script src="js/controlador.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>

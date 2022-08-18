@@ -1,0 +1,224 @@
+#fondo{
+    background-color: #E18700;
+}
+
+#nav{
+width: 1410px;
+height: 120px;
+left: 0px;
+top: 0px;
+
+background-color: black;
+}
+
+#delivery{
+    position: absolute;
+width: 603px;
+height: 103px;
+left: 101px;
+top: 8px;
+
+font-family:'Irish Grover', Irish Grover, Unispace;
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 109px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 5px 5px 4px #E18700;
+}
+
+#admin{
+    position: absolute;
+width: 232px;
+height: 58px;
+left: 520px;
+top: 68px;
+
+font-family: 'Irish Grover', Unispace;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+margin-left: 50px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#logo{
+    position: absolute;
+width: 157.63px;
+height: 110px;
+left: 831px;
+top: 6px;
+}
+#side{
+    height: 1400px;
+    width: 100px;
+    margin-left: -15px;
+    margin-top: -24px;
+}
+#admin-emp{
+    position: absolute;
+left: 17.36%;
+right: 50%;
+top: 22.95%;
+bottom: 44.63%;
+
+background: #FFFFFF;
+border-radius: 50px;
+}
+
+#emp{
+    position: absolute;
+left: 26.68%;
+right: 56.39%;
+top: 26.07%;
+bottom: 64.94%;
+
+font-family: 'Irish Grover', Unispace;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+#negocio{
+    position: absolute;
+width: 200px;
+height: 150px;
+left: 115px;
+top: 90px;
+}
+#admin-emp:hover{
+    cursor: pointer;
+}
+
+#productos{
+    position: absolute;
+left: 57.08%;
+right: 10.28%;
+top: 22.95%;
+bottom: 44.63%;
+
+background: #FFFFFF;
+border-radius: 50px;
+}
+#productos:hover{
+    cursor: pointer;
+}
+#admin-prod{
+    position: absolute;
+left: 2.4%;
+right: 26.67%;
+top: 24.41%;
+bottom: 60.94%;
+
+font-family: 'Irish Grover';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+#store{
+    position: absolute;
+width: 299px;
+height: 225px;
+left: 158px;
+top: 40px;
+}
+
+#motoristas{
+    position: absolute;
+left: 17.36%;
+right: 50%;
+top: 61.62%;
+bottom: 5.96%;
+
+background: #FFFFFF;
+border-radius: 50px;
+}
+#motoristas:hover{
+cursor: pointer;
+}
+
+#motor{
+    position: absolute;
+left: 28.68%;
+right: 56.39%;
+top: -50px;
+bottom: 26.76%;
+
+font-family: 'Irish Grover', Unispace;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+#taxi{
+    position: absolute;
+width: 277px;
+height: 184px;
+left: 40px;
+top: 50px;
+}
+
+#ordenes{
+    position: absolute;
+    left: 57.08%;
+    right: 10.28%;
+    top: 61.62%;
+    bottom: 5.96%;
+    
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+#ordenes:hover{
+    cursor: pointer;
+}
+
+#ord-txt{
+    position: absolute;
+left: 63.4%;
+right: 16.67%;
+top: 64.26%;
+bottom: 26.76%;
+
+font-family: 'Irish Grover', Unispace;
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+#ord-txt{
+    margin-top: -50px;
+    margin-left: -15px;
+}
